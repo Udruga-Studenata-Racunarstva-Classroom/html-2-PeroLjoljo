@@ -1,61 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css0.css"/>
-  </head>
 
-<header>
-    <h1 id="title"> This is my title</h1>
-</header>
-    <p id="description"> ... and with awsome description</p>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css0.css" />
+</head>
+
+
 <body>
+	<header>
+		<h1 id="title"> This is my title</h1>
+		<p id="description"> ... and with awsome description</p>
+	</header>
 
-<div id="survey">
-    <form id="survey-form">
+	<section id="survey">
+		<form id="survey-form">
 
-        <div id="inputforms">
-            <label for="name" id="name-label">Name
-            <input type="text" id="name"></label>
+			<section id="inputforms">
+				<label for="name" id="name-label">Name
+					<input type="text" id="name" placeholder="First name"></label>
 
-            <label for="email" id="email-label">Email
-            <input type="email" id="email" ></label>
+				<label for="email" id="email-label">Email
+					<input type="email" id="email"placeholder="eg: something@idk.idc"></label>
 
-            <label for="number" id="number-label">Number
-            <input type="number" id="number"  min="0979999999" max="1000000000"></label>
-        </div>
-        <div id="selectforms">
-            <label for="dropdown">choose wisely
-            <select id="dropdown">
-                <option value="volvo">Option 1</option>
-                <option value="saab">Option 2</option>   
-            </select></label>
+				<label for="number" id="number-label" aria-placeholder="Phone number">Number
+					<input type="number" id="number" min="0979999999" max="1000000000"></label>
+			</section>
 
-            <label for="buttons">These are some buttons to click
-            <form id="buttons">
-                <label><input type="radio" name="firstname ">Rdb1</label>
-                <label><input type="radio" name="secondname">Rdb2</label>
-                <label><input type="radio" name="firstname">Rdb1</label>
-                <label><input type="radio" name="secondname">Rdb2</label>
-            </form></label>
+			<section id="selectforms">
+				
+				<label for="dropdown">choose wisely
+					<select id="dropdown">
+						<option value="option1">Option 1</option>
+						<option value="option2">Option 2</option>
+					</select></label>
 
-            <form id="checkboxes">
-                <label for="checkboxes">And just some things to chekck
-                <label><input type="checkbox" value="thisisvaltue"> Value1</label>
-                <label><input type="checkbox" value="thisisvaltue1"> Value2</label>
-                <label><input type="checkbox" value="thisisvaltue2"> Value3</label>
-                </label>
-            </form>
-        </div>
+				<label for="buttons">These are some buttons to click
+					<div id="buttons">
+						<label><input type="radio" name="radioName">Rdb1</label>
+						<label><input type="radio" name="radioName">Rdb2</label>
+						<label><input type="radio" name="radioName">Rdb1</label>
+						<label><input type="radio" name="radioName">Rdb2</label>
+					</div></label>
 
-        <div id="textform">
-            <lable for="aditional">Aditional comments?
-            <textarea id="aditional" rows="5" cols="50"></textarea></lable>
-        </div>
-        <button type="submit">Submit</button>
-    </form>
-</div>
+				<div id="checkboxes">
+					<label for="checkboxes">And just some things to chekck
+						<label><input type="checkbox" value="thisisvaltue"> Value1</label>
+						<label><input type="checkbox" value="thisisvaltue1"> Value2</label>
+						<label><input type="checkbox" value="thisisvaltue2"> Value3</label>
+					</label>
+				</div>
+			</section>
+
+			<div id="textform">
+				<lable for="aditional">Aditional comments?
+					<textarea id="aditional" rows="5" cols="50"></textarea></lable>
+			</div>
+			<button type="submit">Submit</button>
+		</form>
+	</section>
 
 </body>
+
 </html>
