@@ -1,0 +1,50 @@
+h1{
+    text-align: center;
+    color:blue;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+#survey{
+    background-color: aquamarine;
+    border: 5px solid black;
+    border-radius: 6%;
+    padding: 10px 20px 10px 20px;
+    display: block;
+    width: 600px;
+    margin: auto;
+}
+#survey-form{
+    width: 80%;
+    padding: 20px;
+    margin: auto;
+}
+
+#inputforms label{
+display: block;
+ padding: 20px 10px 20px 10px;
+ width: 80%;
+ color: red;
+}
+#inputforms input{
+    display: block;
+    width: 100%;
+}
+
+#selectforms label{
+    margin-top: 5px;
+    margin-bottom: 2px;
+    padding: 10px 5px 10px 5px;
+    display: block;
+}
+#textform{
+    margin: auto;
+}
+
+#textform textarea{
+    display: block;
+}
+#survey button{
+    margin-left: 45%;
+    margin-top: 50px;
+}
